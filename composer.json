@@ -1,0 +1,23 @@
+{
+    "name": "lucca-valenca/course-composer",
+    "description": "Package test",
+    "require": {
+        "php": ">=7.0.0",
+        "silex/silex": "2.*@stable"
+    },
+    "type": "library",
+    "version": "1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucca Valença",
+            "email": "04lucca@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Lucca\\":"src/Lucca"
+        }
+    }
+}
